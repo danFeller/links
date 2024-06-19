@@ -1,1 +1,106 @@
-My link in bio
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Daniel Feller - Link in Bio</title>
+    <style>
+      /* * {
+        border: thin red solid;
+      } */
+      body {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #334155;
+      }
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+      .social-icons a {
+        color: #f3f4f6;
+        text-decoration: none;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 480px;
+        flex-grow: 1;
+        padding: 5px;
+      }
+
+      .link {
+        background-color: #475569;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      .link a {
+        color: #f3f4f6;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+      .banner__image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="items">
+
+      <div class="banner">
+        <img src="/thumbnails/DannyOhio.jpg" alt="Danny" class="banner__image">
+      </div>
+  
+      <div class="name">
+        Daniel Feller
+      </div>
+  
+      <div class="social-icons">
+        <a href="https://github.com/danFeller" target="_blank">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/danielfeller2001/" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+  
+      <div class="link">
+        <img src="/thumbnails/laptop.jpg" class="thumbnail">
+  
+        <a target="_blank" href="https://www.youtube.com/@dannysbasement1081"> Teacher's Assistant Academic Channel</a>
+      </div>
+  
+      <div class="link">
+        <img src="thumbnails/office.jpg" class="thumbnail">
+  
+        <a target="_blank" href="https://dnfeller.com/">Web Portfolio</a>
+      </div>
+    </div>
+
+    <!-- Etc, for as many links as you want -->
+  </body>
+</html>
